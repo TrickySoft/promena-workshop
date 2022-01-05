@@ -1,0 +1,17 @@
+@import "styles/variables.scss";
+@import "styles/mixins.scss";
+
+.common-table {
+    &__wrapper{
+        position: relative;
+    }
+    &__dropdown{
+        cursor: pointer;
+        width: 20%;
+        padding: 5px;
+        border-bottom: 1px solid $alto;
+        border-width: 0px 0px 1px 0px;
+        border-radius: 0;
+        @include customAbsoluteCenter(4.8%, 53%, -50%, -50%);
+    }
+}
