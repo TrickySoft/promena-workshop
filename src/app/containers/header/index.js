@@ -69,7 +69,7 @@ const Header = () => {
             </ul>
           </li>
         </ul>
-        <div className='header__login'>
+        <div className='header-login'>
            <button>Login</button>
         </div>
       </div>
