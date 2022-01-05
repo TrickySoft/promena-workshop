@@ -6,7 +6,9 @@ import './index.scss';
 const Home = () => {
     return (
  <div>
+<div  className='home__banner'> 
 <Banner/>
+ </div>
    {/* <div className='container-fluid d-none d-lg-block'>
         <div className='row align-items-center py-4 px-xl-5'>
             <div className='col-lg-3'>
