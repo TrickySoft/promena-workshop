@@ -1,10 +1,12 @@
 import React from 'react';
+import Banner from './banner';
 import './index.scss';
 
 
 const Home = () => {
     return (
  <div>
+<Banner/>
    {/* <div className='container-fluid d-none d-lg-block'>
         <div className='row align-items-center py-4 px-xl-5'>
             <div className='col-lg-3'>
@@ -94,7 +96,7 @@ const Home = () => {
             </div>
         </div>
     </div> */}
-    <div className='container-fluid p-0 pb-5 mb-5'>
+    {/* <div className='container-fluid p-0 pb-5 mb-5'>
         <div id='header-carousel' className='carousel slide carousel-fade' data-ride='carousel'>
             <ol className='carousel-indicators'>
                 <li data-target='#header-carousel' data-slide-to='0' className='active'></li>
@@ -134,8 +136,8 @@ const Home = () => {
                 </div>
             </div>
         </div>
-    </div>
-    <div className='container-fluid padding-top py-5'>
+    </div> */}
+    <div className='container-fluid margin-top py-5'>
         <div className='container py-5'>
             <div className='row align-items-center'>
                 <div className='col-lg-5'>
