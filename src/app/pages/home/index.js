@@ -144,8 +144,8 @@ const Home = () => {
     <div className='container-fluid py-5'>
         <div className='container pt-5 pb-3'>
             <div className='text-center mb-5'>
-                <h5 className='text-primary text-uppercase mb-3' style={{letterSpacing:'5px'}}>Subjects</h5>
-                <h1>Explore Top Subjects</h1>
+                <h5 className='text-primary text-uppercase mb-3' style={{letterSpacing:'5px'}}>Websites</h5>
+                <h1>Explore Your Need</h1>
             </div>
             <div className='row'>
                 <div className='col-lg-3 col-md-6 mb-4'>
@@ -216,7 +216,7 @@ const Home = () => {
                         <img className='img-fluid' src='img/cat-8.jpg' alt=''/>
                         <a className='cat-overlay text-white text-decoration-none' href=''>
                             <h4 className='text-white font-weight-medium'>SEO</h4>
-                            <span>100 Courses</span>
+                            <span>100 + Websites</span>
                         </a>
                     </div>
                 </div>
@@ -226,8 +226,8 @@ const Home = () => {
     <div className='container-fluid py-5'>
         <div className='container py-5'>
             <div className='text-center mb-5'>
-                <h5 className='text-primary text-uppercase mb-3' style={{letterSpacing:'5px'}}>Courses</h5>
-                <h1>Our Popular Courses</h1>
+                <h5 className='text-primary text-uppercase mb-3' style={{letterSpacing:'5px'}}>Websites</h5>
+                <h1>Our Popular Works</h1>
             </div>
             <div className='row'>
                 <div className='col-lg-4 col-md-6 mb-4'>
@@ -346,8 +346,8 @@ const Home = () => {
             <div className='row align-items-center'>
                 <div className='col-lg-7 mb-5 mb-lg-0'>
                     <div className='mb-4'>
-                        <h5 className='text-primary text-uppercase mb-3' style={{letterSpacing:'5px'}}>Need Any Courses</h5>
-                        <h1 className='text-white'>30% Off For New Students</h1>
+                        <h5 className='text-primary text-uppercase mb-3' style={{letterSpacing:'5px'}}>Need Any Website ?</h5>
+                        <h1 className='text-white'>30% Off For New Customers</h1>
                     </div>
                     <p className='text-white'>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos,
                         ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est
@@ -373,10 +373,10 @@ const Home = () => {
                                 </div>
                                 <div className='form-group'>
                                     <select className='custom-select border-0 px-4' style={{height:'47px'}}>
-                                        <option selected>Select a course</option>
-                                        <option value='1'>Course 1</option>
-                                        <option value='2'>Course 1</option>
-                                        <option value='3'>Course 1</option>
+                                        <option selected>Select a Category</option>
+                                        <option value='1'>User</option>
+                                        <option value='2'> Employee</option>
+                                        <option value='3'> Manager</option>
                                     </select>
                                 </div>
                                 <div>
@@ -463,7 +463,7 @@ const Home = () => {
             </div>
         </div>
     </div> */}
-    <div className='container-fluid py-5'>
+    {/* <div className='container-fluid py-5'>
         <div className='container py-5'>
             <div className='text-center mb-5'>
                 <h5 className='text-primary text-uppercase mb-3' style={{letterSpacing:'5px'}}>Testimonial</h5>
@@ -497,7 +497,7 @@ const Home = () => {
                 </div>
             </div>
         </div>
-    </div>
+    </div> */}
     {/* <div className='container-fluid py-5'>
         <div className='container pt-5 pb-3'>
             <div className='text-center mb-5'>
