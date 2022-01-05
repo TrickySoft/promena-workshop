@@ -5,8 +5,8 @@
  * All rights reserved.
  * https://raw.github.com/gdsmith/jquery-easing/master/LICENSE
 */
-import $ from 'jquery';
-$ == jQuery
+// import $ from 'jquery';
+// $ == jQuery
 import jQuery from 'jquery'
 window.jQuery = jQuery;
 

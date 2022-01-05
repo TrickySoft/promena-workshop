@@ -1,14 +1,26 @@
 import React from 'react';
 import Banner from '../banner';
 import About from '../about';
+import { scroller } from 'react-scroll';
 import './index.scss';
 
+// const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
 
 const Home = () => {
+    // const myRef = useRef(null)
+    // const executeScroll = () => scrollToRef(myRef);
+    
+ const  scrollToSection = () => {
+        scroller.scrollTo('register', {
+          duration: 800,
+          delay: 0,
+          smooth: 'easeInOutQuart',
+        });
+      };
     return (
  <div>
 <div  className='home__banner'> 
-<Banner/>
+<Banner />
  </div>
    {/* <div className='container-fluid d-none d-lg-block'>
         <div className='row align-items-center py-4 px-xl-5'>
@@ -151,9 +163,9 @@ const Home = () => {
                 <div className='col-lg-3 col-md-6 mb-4'>
                     <div className='cat-item position-relative overflow-hidden rounded mb-2'>
                         <img className='img-fluid' src='img/cat-1.jpg' alt=''/>
-                        <a className='cat-overlay text-white text-decoration-none' href=''>
+                        <a onClick={scrollToSection} className='cat-overlay text-white text-decoration-none'>
                             <h4 className='text-white font-weight-medium'>Web Design</h4>
-                            <span>100 Courses</span>
+                            <span>100 + Websites</span>
                         </a>
                     </div>
                 </div>
@@ -162,7 +174,7 @@ const Home = () => {
                         <img className='img-fluid' src='img/cat-2.jpg' alt=''/>
                         <a className='cat-overlay text-white text-decoration-none' href=''>
                             <h4 className='text-white font-weight-medium'>Development</h4>
-                            <span>100 Courses</span>
+                            <span>100 + Websites</span>
                         </a>
                     </div>
                 </div>
@@ -171,7 +183,7 @@ const Home = () => {
                         <img className='img-fluid' src='img/cat-3.jpg' alt=''/>
                         <a className='cat-overlay text-white text-decoration-none' href=''>
                             <h4 className='text-white font-weight-medium'>Game Design</h4>
-                            <span>100 Courses</span>
+                            <span>100 + Websites</span>
                         </a>
                     </div>
                 </div>
@@ -180,7 +192,7 @@ const Home = () => {
                         <img className='img-fluid' src='img/cat-4.jpg' alt=''/>
                         <a className='cat-overlay text-white text-decoration-none' href=''>
                             <h4 className='text-white font-weight-medium'>Apps Design</h4>
-                            <span>100 Courses</span>
+                            <span>100 + Websites</span>
                         </a>
                     </div>
                 </div>
@@ -189,7 +201,7 @@ const Home = () => {
                         <img className='img-fluid' src='img/cat-5.jpg' alt=''/>
                         <a className='cat-overlay text-white text-decoration-none' href=''>
                             <h4 className='text-white font-weight-medium'>Marketing</h4>
-                            <span>100 Courses</span>
+                            <span>100 + Websites</span>
                         </a>
                     </div>
                 </div>
@@ -198,7 +210,7 @@ const Home = () => {
                         <img className='img-fluid' src='img/cat-6.jpg' alt=''/>
                         <a className='cat-overlay text-white text-decoration-none' href=''>
                             <h4 className='text-white font-weight-medium'>Research</h4>
-                            <span>100 Courses</span>
+                            <span>100 + Websites</span>
                         </a>
                     </div>
                 </div>
@@ -207,7 +219,7 @@ const Home = () => {
                         <img className='img-fluid' src='img/cat-7.jpg' alt=''/>
                         <a className='cat-overlay text-white text-decoration-none' href=''>
                             <h4 className='text-white font-weight-medium'>Content Writing</h4>
-                            <span>100 Courses</span>
+                            <span>100 + Websites</span>
                         </a>
                     </div>
                 </div>
@@ -235,10 +247,10 @@ const Home = () => {
                         <img className='img-fluid' src='img/course-1.jpg' alt=''/>
                         <div className='bg-secondary p-4'>
                             <div className='d-flex justify-content-between mb-3'>
-                                <small className='m-0'><i className='fa fa-users text-primary mr-2'></i>25 Students</small>
+                                <small className='m-0'><i className='fa fa-users text-primary mr-2'></i>100 above Clients</small>
                                 <small className='m-0'><i className='far fa-clock text-primary mr-2'></i>01h 30m</small>
                             </div>
-                            <a className='h5' href=''>Web design & development courses for beginner</a>
+                            <a className='h5' href=''>Web design & development websites </a>
                             <div className='border-top mt-4 pt-4'>
                                 <div className='d-flex justify-content-between'>
                                     <h6 className='m-0'><i className='fa fa-star text-primary mr-2'></i>4.5 <small>(250)</small></h6>
@@ -253,10 +265,10 @@ const Home = () => {
                         <img className='img-fluid' src='img/course-2.jpg' alt=''/>
                         <div className='bg-secondary p-4'>
                             <div className='d-flex justify-content-between mb-3'>
-                                <small className='m-0'><i className='fa fa-users text-primary mr-2'></i>25 Students</small>
+                                <small className='m-0'><i className='fa fa-users text-primary mr-2'></i>100 above Clients</small>
                                 <small className='m-0'><i className='far fa-clock text-primary mr-2'></i>01h 30m</small>
                             </div>
-                            <a className='h5' href=''>Web design & development courses for beginner</a>
+                            <a className='h5' href=''>Web design & development websites </a>
                             <div className='border-top mt-4 pt-4'>
                                 <div className='d-flex justify-content-between'>
                                     <h6 className='m-0'><i className='fa fa-star text-primary mr-2'></i>4.5 <small>(250)</small></h6>
@@ -271,10 +283,10 @@ const Home = () => {
                         <img className='img-fluid' src='img/course-3.jpg' alt=''/>
                         <div className='bg-secondary p-4'>
                             <div className='d-flex justify-content-between mb-3'>
-                                <small className='m-0'><i className='fa fa-users text-primary mr-2'></i>25 Students</small>
+                                <small className='m-0'><i className='fa fa-users text-primary mr-2'></i>100 above Clients</small>
                                 <small className='m-0'><i className='far fa-clock text-primary mr-2'></i>01h 30m</small>
                             </div>
-                            <a className='h5' href=''>Web design & development courses for beginner</a>
+                            <a className='h5' href=''>Web design & development websites </a>
                             <div className='border-top mt-4 pt-4'>
                                 <div className='d-flex justify-content-between'>
                                     <h6 className='m-0'><i className='fa fa-star text-primary mr-2'></i>4.5 <small>(250)</small></h6>
@@ -289,10 +301,10 @@ const Home = () => {
                         <img className='img-fluid' src='img/course-4.jpg' alt=''/>
                         <div className='bg-secondary p-4'>
                             <div className='d-flex justify-content-between mb-3'>
-                                <small className='m-0'><i className='fa fa-users text-primary mr-2'></i>25 Students</small>
+                                <small className='m-0'><i className='fa fa-users text-primary mr-2'></i>100 above Clients</small>
                                 <small className='m-0'><i className='far fa-clock text-primary mr-2'></i>01h 30m</small>
                             </div>
-                            <a className='h5' href=''>Web design & development courses for beginner</a>
+                            <a className='h5' href=''>Web design & development websites </a>
                             <div className='border-top mt-4 pt-4'>
                                 <div className='d-flex justify-content-between'>
                                     <h6 className='m-0'><i className='fa fa-star text-primary mr-2'></i>4.5 <small>(250)</small></h6>
@@ -307,10 +319,10 @@ const Home = () => {
                         <img className='img-fluid' src='img/course-5.jpg' alt=''/>
                         <div className='bg-secondary p-4'>
                             <div className='d-flex justify-content-between mb-3'>
-                                <small className='m-0'><i className='fa fa-users text-primary mr-2'></i>25 Students</small>
+                                <small className='m-0'><i className='fa fa-users text-primary mr-2'></i>100 above Clients</small>
                                 <small className='m-0'><i className='far fa-clock text-primary mr-2'></i>01h 30m</small>
                             </div>
-                            <a className='h5' href=''>Web design & development courses for beginner</a>
+                            <a className='h5' href=''>Web design & development websites </a>
                             <div className='border-top mt-4 pt-4'>
                                 <div className='d-flex justify-content-between'>
                                     <h6 className='m-0'><i className='fa fa-star text-primary mr-2'></i>4.5 <small>(250)</small></h6>
@@ -325,10 +337,10 @@ const Home = () => {
                         <img className='img-fluid' src='img/course-6.jpg' alt=''/>
                         <div className='bg-secondary p-4'>
                             <div className='d-flex justify-content-between mb-3'>
-                                <small className='m-0'><i className='fa fa-users text-primary mr-2'></i>25 Students</small>
+                                <small className='m-0'><i className='fa fa-users text-primary mr-2'></i>100 above Clients</small>
                                 <small className='m-0'><i className='far fa-clock text-primary mr-2'></i>01h 30m</small>
                             </div>
-                            <a className='h5' href=''>Web design & development courses for beginner</a>
+                            <a className='h5' href=''>Web design & development websites </a>
                             <div className='border-top mt-4 pt-4'>
                                 <div className='d-flex justify-content-between'>
                                     <h6 className='m-0'><i className='fa fa-star text-primary mr-2'></i>4.5 <small>(250)</small></h6>
@@ -358,7 +370,7 @@ const Home = () => {
                         <li className='py-2'><i className='fa fa-check text-primary mr-3'></i>Diam dolor diam elitripsum vero.</li>
                     </ul>
                 </div>
-                <div className='col-lg-5'>
+                <div className='col-lg-5 register'>
                     <div className='card border-0'>
                         <div className='card-header bg-light text-center p-4'>
                             <h1 className='m-0'>Sign Up Now</h1>
