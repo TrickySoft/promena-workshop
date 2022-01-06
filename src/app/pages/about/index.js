@@ -4,7 +4,31 @@ import './index.scss';
 const About = () => {
     return (
         <div>
-        <div className='container-fluid margin-top py-5'>
+        <div className='container-fluid margin-top'>
+            <div className='container py-5'>
+                <div className='row align-items-center'>
+                    <div className='col-sm-4 col-md-4 col-lg-4'>
+                    <img src='img/01.png' className='img-fluid rounded mb-4 mb-lg-0' alt=''  />
+                        <p className='pt-3 font-size'>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, nostrum ab necessitatibus veniam vel, error blanditiis molestias repellat tempore voluptas adipisci voluptate quis sed doloremque assumenda fugiat magnam impedit dolore.
+                        </p>
+                    </div>
+                    <div className=' col-lg-4'>
+                    <img src='img/02.png' className='img-fluid rounded mb-4 mb-lg-0'  alt=''  />
+                        <p className='pt-3 font-size'>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, nostrum ab necessitatibus veniam vel, error blanditiis molestias repellat tempore voluptas adipisci voluptate quis sed doloremque assumenda fugiat magnam impedit dolore.
+                        </p>
+                    </div>
+                    <div className=' col-lg-4'>
+                    <img src='img/03.png' alt='' className='img-fluid rounded mb-4 mb-lg-0'  />
+                        <p className='pt-3 font-size'>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, nostrum ab necessitatibus veniam vel, error blanditiis molestias repellat tempore voluptas adipisci voluptate quis sed doloremque assumenda fugiat magnam impedit dolore.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className='container-fluid margin-info py-5 '>
         <div className='container py-5'>
             <div className='row align-items-center'>
                 <div className='col-lg-5'>
@@ -22,14 +46,14 @@ nowadays. However, building an e-store is not an easy feat. we’ll give e-comme
             </div>
         </div>
     </div>
-    <div className='container-fluid margin-top py-5'>
+    <div className='container-fluid py-5 '>
         <div className='container py-5'>
             <div className='row align-items-center'>
                 <div className='col-lg-5'>
                 <div id='header-carousel' className='carousel slide carousel-fade' data-ride='carousel'>
             <ol className='carousel-indicators'>
-                <li data-target='#header-carousel' data-slide-to='0' className='active'></li>
-                <li data-target='#header-carousel' data-slide-to='1' className=''></li>
+                <li data-target='#header-carousel' data-slide-to='0' className=''></li>
+                <li data-target='#header-carousel' data-slide-to='1' className='active'></li>
                 <li data-target='#header-carousel' data-slide-to='2' className=''></li>
             </ol>
             <div className='carousel-inner'>
@@ -77,7 +101,9 @@ nowadays. However, building an e-store is not an easy feat. we’ll give e-comme
             </div>
         </div>
     </div>
-    <div className='container-fluid margin-top py-5'>
+
+    
+    <div className='container-fluid  py-5'>
         <div className='container py-5'>
             <div className='row align-items-center'>
 
@@ -103,7 +129,7 @@ and abandoned cart emails.
         </div>
     </div>
     {/* informative strips */}
-    <div className='container-fluid py-5'>
+    <div className='container-fluid  py-5'>
         <div className='container'>
         <div className='row align-itmes-center py-3 '>
             <h1 className='col-lg-12 text-center'>What will you get here ?</h1>
