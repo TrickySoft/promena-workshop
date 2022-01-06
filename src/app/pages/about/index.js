@@ -4,7 +4,7 @@ import './index.scss';
 const About = () => {
     return (
         <div>
-        <div className='container-fluid margin-top'>
+        <div className='container-fluid'>
             <div className='container py-5'>
                 <div className='row align-items-center'>
                     <div className='col-sm-4 col-md-4 col-lg-4'>
@@ -28,7 +28,7 @@ const About = () => {
                 </div>
             </div>
         </div>
-        <div className='container-fluid margin-info py-5 '>
+        <div className='container-fluid  py-5 '>
         <div className='container py-5'>
             <div className='row align-items-center'>
                 <div className='col-lg-5'>
@@ -132,27 +132,27 @@ and abandoned cart emails.
     <div className='container-fluid  py-5'>
         <div className='container'>
         <div className='row align-itmes-center py-3 '>
-            <h1 className='col-lg-12 text-center'>What will you get here ?</h1>
+            <h1 className='col-lg-12 col-sm-3 col-xl-3 col-md-4 text-center'>What will you get here ?</h1>
             </div>
             <div className='row align-itmes-center'>
-            <span  className='col-lg-1 strong_number'>1</span>
-            <span className='col-lg-11 text-center box-shadow'> We custom your need</span>
+            <span  className='col-lg-1 col-sm-1 col-md-1 strong_number'>1</span>
+            <span className='col-lg-11 col-sm-3 col-md-3 text-center box-shadow'> We custom your need</span>
             </div>
             <div className='row align-itmes-center'>
-            <span  className='col-lg-1 strong_number'>2</span>
-            <span className='col-lg-11 text-center box-shadow'> We custom your need</span>
+            <span  className='col-lg-1 col-sm-1 col-md-1 strong_number'>2</span>
+            <span className='col-lg-11 text-center col-sm-3 col-md-3  box-shadow'> We custom your need</span>
             </div>
             <div className='row align-itmes-center'>
-            <span  className='col-lg-1 strong_number'>3</span>
-            <span className='col-lg-11 text-center box-shadow'> We custom your need</span>
+            <span  className='col-lg-1 col-sm-1 col-md-1 strong_number'>3</span>
+            <span className='col-lg-11 text-center col-sm-3 col-md-3 box-shadow'> We custom your need</span>
             </div>
             <div className='row align-itmes-center'>
-            <span  className='col-lg-1 strong_number'>4</span>
-            <span className='col-lg-11 text-center box-shadow'> We custom your need</span>
+            <span  className='col-lg-1 col-sm-1 col-md-1 strong_number'>4</span>
+            <span className='col-lg-11 text-center col-sm-3 col-md-3 box-shadow'> We custom your need</span>
             </div>
             <div className='row align-itmes-center'>
-            <span  className='col-lg-1 strong_number'>5</span>
-            <span className='col-lg-11 text-center box-shadow'> We custom your need</span>
+            <span  className='col-lg-1 col-sm-1 col-md-1 strong_number'>5</span>
+            <span className='col-lg-11 text-center col-sm-3 col-md-3 box-shadow'> We custom your need</span>
             </div>
   
         </div>
