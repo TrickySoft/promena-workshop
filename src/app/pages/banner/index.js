@@ -25,7 +25,7 @@ const Banner = () => {
                     <div className='banner__text'>
                         <p>Worry About how to Start a E-commerce Business.</p>
                         <h2>Learn live with Our Profectional Technical Team with simple method.</h2>
-                        <a onClick={scrollToSection} className='text-white text-decoration-none'>
+                        <a onClick={scrollToSection} className=' text-decoration-none'>
                             <button>Register</button>
                         </a>
                     </div>
@@ -60,7 +60,7 @@ const Banner = () => {
                 <div className='schedule__image'><img src={image1} alt='image1'></img></div>
                 <div className='schedule__content'>
                     <h1>BOOK YOUR PERSONALIZED LIVE ESTORE EXPERINCE</h1>
-                    <a onClick={scrollToSection} className='text-white text-decoration-none'>
+                    <a onClick={scrollToSection} className='text-decoration-none'>
                     <button>SCHEDULE A DEMO</button>
                     </a>
                 </div>
