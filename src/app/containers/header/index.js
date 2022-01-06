@@ -12,7 +12,7 @@ const Header = () => {
       <label forHtml='show-menu' className='menu-icon'><i className='fas fa-bars'></i></label>
       <div className='content'>
       <div className='logo'><a href='#'><img src={logo} alt='logo' /></a></div>
-        <ul className='links'>
+        {/* <ul className='links'>
         <li>
             <a href='#' className='desktop-link'>HOME <i className='fa fa-caret-down' aria-hidden='true'></i></a>
             <input type='checkbox' id='show-seo'></input>
@@ -71,7 +71,7 @@ const Header = () => {
         </ul>
         <div className='header-login'>
            <button>Login</button>
-        </div>
+    </div>*/}
       </div>
       </nav>
       </div>
