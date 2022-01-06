@@ -98,8 +98,7 @@
     display: flex;
     position: relative;
     justify-content: space-around;
-    padding-top: 10rem;
-    padding-bottom: 6rem;
+    padding-top: 8rem;
     h1{
       color: white;
     }
@@ -143,6 +142,11 @@
     }
     &__text {
       width: 100%;
+      text-align: center;
+      button {
+        margin: 1rem;
+        padding: 0.5rem 1.6rem;
+      }
       p {
         color: black;
         font-size: 1.4rem;
@@ -174,6 +178,7 @@
   &__content {
     display: block;
     padding-top: 2rem;
+    padding-bottom: 2rem;
     text-align: center;
     h1 {
       font-size: 1.4rem;
@@ -182,7 +187,50 @@
     }
  
   }
+}  
 }
 
+
+@media screen and (min-width:768px) and (max-width:1020px) {
+  .banner {
+    &__header {
+      h1 {
+      font-size: 2rem;
+      }
+    }
+    &__image {
+      width: 95%;
+    }
+    &__content {
+      align-items: center;
+      p {
+        font-size: 2rem;
+      }
+    }
+  }  
+  .schedule {
+    &__content {
+      display: block;
+      padding: 0;
+      padding-top: 4rem;
+      align-items: center;
+      text-align: center;
+      h1 {
+        font-size: 1.8rem;
+      }
+    }
+  }
+}
+
+
+@media screen and (min-width:1024px) and (max-width:1420px) {
+  .schedule {
+    &__content {
+      display: block;
+      padding: 0;
+      padding-top: 4rem;
+      text-align: center;
+    }
+  }
   
 }
