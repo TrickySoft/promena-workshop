@@ -29,8 +29,8 @@ nowadays. However, building an e-store is not an easy feat. we’ll give e-comme
                 <div id='header-carousel' className='carousel slide carousel-fade' data-ride='carousel'>
             <ol className='carousel-indicators'>
                 <li data-target='#header-carousel' data-slide-to='0' className='active'></li>
-                <li data-target='#header-carousel' data-slide-to='1'></li>
-                <li data-target='#header-carousel' data-slide-to='2'></li>
+                <li data-target='#header-carousel' data-slide-to='1' className=''></li>
+                <li data-target='#header-carousel' data-slide-to='2' className=''></li>
             </ol>
             <div className='carousel-inner'>
                 <div className='carousel-item active' style={{minHeight: '300px'}}>
@@ -100,6 +100,35 @@ and abandoned cart emails.
                     <img className='img-fluid rounded mb-4 mb-lg-0' src='img/cat-6.jpg' alt=''/>
                 </div>
             </div>
+        </div>
+    </div>
+    {/* informative strips */}
+    <div className='container-fluid py-5'>
+        <div className='container'>
+        <div className='row align-itmes-center py-3 '>
+            <h1 className='col-lg-12 text-center'>What will you get here ?</h1>
+            </div>
+            <div className='row align-itmes-center'>
+            <span  className='col-lg-1 strong_number'>1</span>
+            <span className='col-lg-11 text-center box-shadow'> We custom your need</span>
+            </div>
+            <div className='row align-itmes-center'>
+            <span  className='col-lg-1 strong_number'>2</span>
+            <span className='col-lg-11 text-center box-shadow'> We custom your need</span>
+            </div>
+            <div className='row align-itmes-center'>
+            <span  className='col-lg-1 strong_number'>3</span>
+            <span className='col-lg-11 text-center box-shadow'> We custom your need</span>
+            </div>
+            <div className='row align-itmes-center'>
+            <span  className='col-lg-1 strong_number'>4</span>
+            <span className='col-lg-11 text-center box-shadow'> We custom your need</span>
+            </div>
+            <div className='row align-itmes-center'>
+            <span  className='col-lg-1 strong_number'>5</span>
+            <span className='col-lg-11 text-center box-shadow'> We custom your need</span>
+            </div>
+  
         </div>
     </div>
     </div> 
