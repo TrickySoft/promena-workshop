@@ -23,7 +23,7 @@ const Home = () => {
 <Banner />
  </div>
 <About/>
-    <div className='container-fluid  py-5'>
+    <div className='container-fluid  py-3'>
         <div className='container pt-5 pb-3'>
             <div className='text-center mb-5'>
                 <h5 className='text-primary text-uppercase mb-3' style={{letterSpacing:'5px'}}>Websites</h5>
@@ -105,7 +105,7 @@ const Home = () => {
             </div>
         </div>
     </div>
-    <div className='container-fluid bg-registration py-5 mb-5' >
+    <div className='container-fluid bg-registration py-3 mb-5' >
         <div className='container py-5'>
             <div className='row align-items-center'>
                 <div className='col-lg-7 mb-5 mb-lg-0'>
