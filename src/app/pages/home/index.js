@@ -102,7 +102,7 @@ nowadays. However, building an e-store is not an easy feat. we’ll give e-comme
         </div>
     </div> */}
 <About/>
-    <div className='container-fluid   py-5'>
+    <div className='container-fluid  py-5'>
         <div className='container pt-5 pb-3'>
             <div className='text-center mb-5'>
                 <h5 className='text-primary text-uppercase mb-3' style={{letterSpacing:'5px'}}>Websites</h5>
@@ -184,7 +184,7 @@ nowadays. However, building an e-store is not an easy feat. we’ll give e-comme
             </div>
         </div>
     </div>
-    <div className='container-fluid   py-5'>
+    {/* <div className='container-fluid   py-5'>
         <div className='container py-5'>
             <div className='text-center mb-5'>
                 <h5 className='text-primary text-uppercase mb-3' style={{letterSpacing:'5px'}}>Websites</h5>
@@ -301,7 +301,7 @@ nowadays. However, building an e-store is not an easy feat. we’ll give e-comme
                 </div>
             </div>
         </div>
-    </div>
+    </div> */}
     <div className='container-fluid bg-registration py-5 mb-5' >
         <div className='container py-5'>
             <div className='row align-items-center'>
