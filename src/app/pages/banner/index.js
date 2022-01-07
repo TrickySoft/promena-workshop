@@ -35,8 +35,6 @@ const Banner = () => {
                             playing
                             width='100%'
                             height='100%'
-                            // onMouseOver={event => event.target.play()}
-                            // onMouseOut={event => event.target.pause()}
                             controls={false} url='https://youtu.be/22kfehB_YNA' />
                     </div>
                 </div>
