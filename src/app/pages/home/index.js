@@ -322,7 +322,7 @@ nowadays. However, building an e-store is not an easy feat. we’ll give e-comme
                 <div className='col-lg-5 register'>
                     <div className='card border-0'>
                         <div className='card-header bg-light text-center p-4'>
-                            <h1 className='m-0'>Sign Up Now</h1>
+                            <h1 className='m-0'>Register Now</h1>
                         </div>
                         <div className='card-body rounded-bottom bg-primary p-5'>
                             <form>
@@ -341,7 +341,7 @@ nowadays. However, building an e-store is not an easy feat. we’ll give e-comme
                                     </select>
                                 </div>
                                 <div>
-                                    <button className='btn btn-dark btn-block border-0 py-3' type='submit'>Sign Up Now</button>
+                                    <button className='btn btn-dark btn-block border-0 py-3' type='submit'>Register</button>
                                 </div>
                             </form>
                         </div>

@@ -38,8 +38,9 @@ const Banner = () => {
                         </a>
                     </div>
                     <div className='banner__video' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                        <ReactPlayer className='react-player'
-                            width='100%'
+                        <ReactPlayer className='player-wrapper'
+                            width='600px'
+                            height='400px '
                             playing={play}
                             pip
                             controls='false'
