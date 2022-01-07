@@ -150,21 +150,21 @@ const About = () => {
     <h1>01</h1>
     <i className='fa fa-list fa-icon' aria-hidden='true'></i>
       </div>
-            <span className='heading'>Catalouge Managed by Brand Owner</span>
+            <span className='card-heading'>Catalouge Managed by Brand Owner</span>
             </div>
             <div className='col-lg-3 col-sm-3 col-md-3 text-center box-shadow ml-1'>
             <div className='card'>
     <h1>02</h1>
     <i className='fa fa-book fa-icon' aria-hidden='true'></i>
       </div>
-            <span className='heading'>Money Deposited in 1 Account</span>
+            <span className='card-heading'>Money Deposited in 1 Account</span>
             </div>
             <div className='col-lg-3 col-sm-3 col-md-3 text-center box-shadow ml-1'>
             <div className='card'>
     <h1>03</h1>
     <i className='fa fa-user fa-icon' aria-hidden='true'></i>
       </div>
-            <span className='heading'>Single Control Panel</span>
+            <span className='card-heading'>Single Control Panel</span>
             </div>
             </div>
         </div>
