@@ -44,7 +44,7 @@ const Banner = () => {
                             playing={play}
                             pip
                             controls='false'
-                            config={{ file: { forceHLS: true } }} url='https://youtu.be/22kfehB_YNA' />
+                            config={{ file: { forceHLS: true } }} url='https://www.youtube.com/watch?v=JGwWNGJdvx8&list=PLMB4z49yskUY_rl0ujQZx4-N_vgyWIzT0' />
                     </div>
                 </div>
             </div>
