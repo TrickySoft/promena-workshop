@@ -14,6 +14,7 @@ const Banner = () => {
         });
     };
 
+
     return (
         <div>
             <div className='banner__container'>
@@ -30,11 +31,13 @@ const Banner = () => {
                         </a>
                     </div>
                     <div className='banner__video'>
-                        <ReactPlayer  className='react-player'
-                        playing
-                        width='100%'
-                        height='100%'
-                        controls={false} url='https://youtu.be/22kfehB_YNA' />
+                        <ReactPlayer className='react-player'
+                            playing
+                            width='100%'
+                            height='100%'
+                            // onMouseOver={event => event.target.play()}
+                            // onMouseOut={event => event.target.pause()}
+                            controls={false} url='https://youtu.be/22kfehB_YNA' />
                     </div>
                 </div>
             </div>
@@ -61,7 +64,7 @@ const Banner = () => {
                 <div className='schedule__content'>
                     <h1>BOOK YOUR PERSONALIZED LIVE ESTORE EXPERINCE</h1>
                     <a onClick={scrollToSection} className='text-decoration-none'>
-                    <button>SCHEDULE A DEMO</button>
+                        <button>SCHEDULE A DEMO</button>
                     </a>
                 </div>
             </div>
