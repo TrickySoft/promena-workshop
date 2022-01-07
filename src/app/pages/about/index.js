@@ -105,8 +105,8 @@ const About = () => {
                                 Share your very own digital dukaan catalogs on social media platforms like WhatsApp,
                                 WhatsApp Business, Facebook, Instagram & Twitter from here. </p>
                             <p>the online shopping app creator, is for EveryOne who want to fight massive e-commerce brands.</p>
-                            <p> Create your entire digital store from us & boost your sales. You are a wholesaler, manufacturer,
-                             or a business owner,  every store or business is welcome!</p>
+                            {/* <p> Create your entire digital store from us & boost your sales. You are a wholesaler, manufacturer,
+                             or a business owner,  every store or business is welcome!</p> */}
                             <a href='' className='btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2'>Learn More</a>
                         </div>
                     </div>
