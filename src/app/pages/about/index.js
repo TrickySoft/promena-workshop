@@ -132,32 +132,32 @@ const About = () => {
                 </div>
             </div>
             {/* informative strips */}
-            < div className='container-fluid mb-1 py-1' >
+            <div className='container-fluid mb-1 py-1'>
                 <div className='container'>
                     <div className='row align-itmes-center py-3 justify-content-center'>
                         <h1 className='col-lg-8 col-sm-10 col-md-12 font-size text-center'>What will you get here ?</h1>
                     </div>
                     <div className='row align-itmes-center justify-content-center card-background'>
-                        <div className='col-lg-3 col-sm-3 col-md-3 text-center box-shadow ml-1'>
+                        <div className='col-lg-3 col-sm-3 col-md-3 box-shadow'>
                             <div className='info-card'>
-                                <h1>01</h1>
+                                <h1 className='number-color'>01</h1>
                                 <i className='fa fa-list fa-icon' aria-hidden='true'></i>
                             </div>
                             <span className='card-heading'>Catalouge Managed by Brand Owner</span>
                         </div>
-                        <div className='col-lg-3 col-sm-3 col-md-3 text-center box-shadow ml-1'>
+                        <div className='col-lg-3 col-sm-3 col-md-3 box-shadow'>
                             <div className='info-card'>
-                                <h1>02</h1>
+                                <h1 className='number-color'>02</h1>
                                 <i className='fa fa-book fa-icon' aria-hidden='true'></i>
                             </div>
                             <span className='card-heading'>Money Deposited in 1 Account</span>
                         </div>
-                        <div className='col-lg-3 col-sm-3 col-md-3 text-center box-shadow ml-1'>
+                        <div className='col-lg-3 col-sm-3 col-md-3 box-shadow'>
                             <div className='info-card'>
-                                <h1>03</h1>
+                                <h1 className='number-color'>03</h1>
                                 <i className='fa fa-user fa-icon' aria-hidden='true'></i>
                             </div>
-                            <span className='card-heading'>Single Control Panel</span>
+                            <span className='card-heading'>Single Control Panel For Admin</span>
                         </div>
                     </div>
                 </div>
