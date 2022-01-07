@@ -10,19 +10,19 @@ const About = () => {
                     <div className='col-sm-4 col-md-4 col-lg-4'>
                     <img src='img/01.png' className='img-fluid rounded mb-4 mb-lg-0' alt=''  />
                         <p className='pt-3'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, nostrum ab necessitatibus veniam vel, error blanditiis molestias repellat tempore voluptas adipisci voluptate quis sed doloremque assumenda fugiat magnam impedit dolore.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, nostrum ab necessitatibus veniam vel, error blanditiis molestias.
                         </p>
                     </div>
                     <div className=' col-lg-4 col-sm-4 col-md-4 col-lg-4'>
                     <img src='img/02.png' className='img-fluid rounded mb-4 mb-lg-0'  alt=''  />
                         <p className='pt-3'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, nostrum ab necessitatibus veniam vel, error blanditiis molestias repellat tempore voluptas adipisci voluptate quis sed doloremque assumenda fugiat magnam impedit dolore.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, nostrum ab necessitatibus veniam vel, error blanditiis molestias.
                         </p>
                     </div>
                     <div className=' col-lg-4 col-sm-4 col-md-4 col-lg-4'>
                     <img src='img/03.png' alt='' className='img-fluid rounded mb-4 mb-lg-0'  />
                         <p className='pt-3'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, nostrum ab necessitatibus veniam vel, error blanditiis molestias repellat tempore voluptas adipisci voluptate quis sed doloremque assumenda fugiat magnam impedit dolore.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, nostrum ab necessitatibus veniam vel, error blanditiis molestias.
                         </p>
                     </div>
                 </div>
