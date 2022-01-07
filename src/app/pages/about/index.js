@@ -95,10 +95,18 @@ const About = () => {
                         </div>
                         <div className='col-lg-7'>
                             <div className='text-left mb-4'>
-                                <h5 className='text-primary text-uppercase mb-3' style={{ letterSpacing: '5px' }}>No coding required</h5>
-                                <h1>Support that pleases</h1>
+                                <h5 className='text-primary text-uppercase mb-3' style={{ letterSpacing: '5px' }}>All That You Needed You Get It Here</h5>
+                                <h1></h1>
                             </div>
-                            <p>With 9 years of experience in e-commerce we are confidant to bring the theme with the heighest conversion rate. Set-up a fully functional awsome website without needing to code a single line.</p>
+                            <p>Create & launch your very own online store! We generate an app for your own online store in minutes
+                                where your customers can directly shop from.</p>
+                            <p> Generate your shop in a few clicks; go from offline to online</p>
+                            <p>Share your app with the world in a second & bring more customers to your store
+                                Share your very own digital dukaan catalogs on social media platforms like WhatsApp,
+                                WhatsApp Business, Facebook, Instagram & Twitter from here. </p>
+                            <p>the online shopping app creator, is for EveryOne who want to fight massive e-commerce brands.</p>
+                            <p> Create your entire digital store from us & boost your sales. You are a wholesaler, manufacturer,
+                             or a business owner,  every store or business is welcome!</p>
                             <a href='' className='btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2'>Learn More</a>
                         </div>
                     </div>
