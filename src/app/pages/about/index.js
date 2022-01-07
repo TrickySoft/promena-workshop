@@ -9,7 +9,7 @@ import slide5 from '../../../assets/images/beauty1.png';
 const About = () => {
     return (
         <div>
-            <div className='container-fluid  py-5 '>
+            <div className='container-fluid  pb-3 pt-5 '>
                 <div className='container py-5'>
                     <div className='row align-items-center'>
                         <div className='col-lg-5'>
