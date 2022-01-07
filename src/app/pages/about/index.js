@@ -8,53 +8,17 @@ import slide5 from '../../../assets/images/beauty1.png';
 
 const About = () => {
     return (
-        <div className='margin-top'>
-            <div className='container-fluid py-5 mb-5'>
-                <div className='container py-5'>
-                    <div className='row align-items-center'>
-                        <div className='col-sm-4 col-md-4 col-lg-4'>
-                            <img src='img/01.png' className='img-fluid rounded mb-4 mb-lg-0' alt='' />
-                            <p className='pt-3'>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, nostrum ab necessitatibus veniam vel, error blanditiis molestias.
-                            </p>
-                        </div>
-                        <div className=' col-lg-4 col-sm-4 col-md-4 col-lg-4'>
-                            <img src='img/02.png' className='img-fluid rounded mb-4 mb-lg-0' alt='' />
-                            <p className='pt-3'>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, nostrum ab necessitatibus veniam vel, error blanditiis molestias.
-                            </p>
-                        </div>
-                        <div className=' col-lg-4 col-sm-4 col-md-4 col-lg-4'>
-                            <img src='img/03.png' alt='' className='img-fluid rounded mb-4 mb-lg-0' />
-                            <p className='pt-3'>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, nostrum ab necessitatibus veniam vel, error blanditiis molestias.
-                            </p>
-                        </div>
-                    </div>
+        <div>
+        <div className='container-fluid  py-3 '>
+        <div className='container py-5'>
+            <div className='row align-items-center'>
+                <div className='col-lg-5'>
+                    <img className='img-fluid rounded mb-4 mb-lg-0' src='img/cat-3.jpg' alt=''/>
                 </div>
-            </div>
-            <div className='container-fluid  py-5 '>
-                <div className='container py-5'>
-                    <div className='row align-items-center'>
-                        <div className='col-lg-5'>
-                            <img className='img-fluid rounded mb-4 mb-lg-0' src='img/cat-3.jpg' alt='' />
-                        </div>
-                        <div className='col-lg-7'>
-                            <div className='text-left mb-4'>
-                                <h5 className='text-primary text-uppercase mb-3' style={{ letterSpacing: '5px' }}>Why Choose Name Over Name</h5>
-                                <h1>For Your E-Store</h1>
-                            </div>
-                            <p>New to e-Commerce? Everybody is setting up shop in the cloud
-                                nowadays. However, building an e-store is not an easy feat. we’ll give e-commerce features and very user-friendly professional interface</p>
-                            <li>Over 1000 templates with mind blowing eye-catching designs.</li>
-                            <li>Highly customizable.</li>
-                            <li>Cost-effective plans for e-commerce.</li>
-                            <li>Advanced e-commerce tools, including global shipping payments and abandoned cart emails.</li>
-                            <li>Strong brand focus.</li>
-                            <li>Multilingual sites.</li>
-                            <li>24/7 support.</li>
-                            <a href='' className='btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2'>Learn More</a>
-                        </div>
+                <div className='col-lg-7'>
+                    <div className='text-left mb-4'>
+                        <h5 className='text-primary text-uppercase mb-3' style={{letterSpacing:'5px'}}>Why Choose Name Over Name</h5>
+                        <h1>For Your E-Store</h1>
                     </div>
                 </div>
             </div>
@@ -168,30 +132,44 @@ const About = () => {
                     <div className='row align-itmes-center py-3 justify-content-center'>
                         <h1 className='col-lg-8 col-sm-10 col-md-12 font-size text-center'>What will you get here ?</h1>
                     </div>
-                    <div className='row align-itmes-center justify-content-center'>
-                        <span className='col-lg-1 col-sm-1 col-md-1 strong_number'>1</span>
-                        <span className='col-lg-7 col-sm-3 col-md-11 text-center box-shadow'> We custom your need</span>
-                    </div>
-                    <div className='row align-itmes-center justify-content-center'>
-                        <span className='col-lg-1 col-sm-1 col-md-1 strong_number'>2</span>
-                        <span className='col-lg-7 text-center col-sm-3 col-md-11  box-shadow'> We custom your need</span>
-                    </div>
-                    <div className='row align-itmes-center justify-content-center'>
-                        <span className='col-lg-1 col-sm-1 col-md-1 strong_number'>3</span>
-                        <span className='col-lg-7 text-center col-sm-3 col-md-11 box-shadow'> We custom your need</span>
-                    </div>
-                    <div className='row align-itmes-center justify-content-center'>
-                        <span className='col-lg-1 col-sm-1 col-md-1 strong_number'>4</span>
-                        <span className='col-lg-7 text-center col-sm-3 col-md-11 box-shadow'> We custom your need</span>
-                    </div>
-                    <div className='row align-itmes-center justify-content-center'>
-                        <span className='col-lg-1 col-sm-1 col-md-1 strong_number'>5</span>
-                        <span className='col-lg-7 text-center col-sm-3 col-md-11 box-shadow'> We custom your need</span>
-                    </div>
-
+                    <p>With 9 years of experience in e-commerce we are confidant to bring the theme with the heighest conversion rate. Set-up a fully functional awsome website without needing to code a single line.</p>
+                    <a href='' className='btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2'>Learn More</a>
                 </div>
             </div>
         </div>
+    </div>
+    {/* informative strips */}
+    <div className='container-fluid mb-5 py-3'>
+        <div className='container'>
+        <div className='row align-itmes-center py-3 justify-content-center'>
+            <h1 className='col-lg-8 col-sm-10 col-md-12 font-size text-center'>What will you get here ?</h1>
+            </div>
+            <div className='row align-itmes-center justify-content-center card-background'>
+            <div className='col-lg-3 col-sm-3 col-md-3 text-center box-shadow ml-1'>
+      <div className='card'>
+    <h1>01</h1>
+    <i className='fa fa-list fa-icon' aria-hidden='true'></i>
+      </div>
+            <span className='heading'>Catalouge Managed by Brand Owner</span>
+            </div>
+            <div className='col-lg-3 col-sm-3 col-md-3 text-center box-shadow ml-1'>
+            <div className='card'>
+    <h1>02</h1>
+    <i className='fa fa-book fa-icon' aria-hidden='true'></i>
+      </div>
+            <span className='heading'>Money Deposited in 1 Account</span>
+            </div>
+            <div className='col-lg-3 col-sm-3 col-md-3 text-center box-shadow ml-1'>
+            <div className='card'>
+    <h1>03</h1>
+    <i className='fa fa-user fa-icon' aria-hidden='true'></i>
+      </div>
+            <span className='heading'>Single Control Panel</span>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div> 
 
     )
 }
