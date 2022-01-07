@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './index.scss';
 import ReactPlayer from 'react-player';
 import { scroller } from 'react-scroll';
@@ -13,6 +13,13 @@ const Banner = () => {
             smooth: 'easeInOutQuart',
         });
     };
+    const [play, setPlay] = useState(false);
+    const handleMouseEnter = () => {
+        setPlay(true);
+    };
+    const handleMouseLeave = () => {
+        setPlay(false);
+    };
 
 
     return (
@@ -25,17 +32,18 @@ const Banner = () => {
                 <div className='banner__content'>
                     <div className='banner__text'>
                         <p>Worry About how to Start a E-commerce Business.</p>
-                        <h2>Learn live with Our Profectional Technical Team with simple method.</h2>
+                        <h2>Learn live with Our Profetional Technical Team with simple method.</h2>
                         <a onClick={scrollToSection} className=' text-decoration-none'>
                             <button>Register</button>
                         </a>
                     </div>
-                    <div className='banner__video'>
+                    <div className='banner__video' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                         <ReactPlayer className='react-player'
-                            playing
                             width='100%'
-                            height='100%'
-                            controls={false} url='https://youtu.be/22kfehB_YNA' />
+                            playing={play}
+                            pip
+                            controls='false'
+                            config={{ file: { forceHLS: true } }} url='https://youtu.be/22kfehB_YNA' />
                     </div>
                 </div>
             </div>
