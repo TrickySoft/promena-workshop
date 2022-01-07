@@ -17,10 +17,10 @@ const Footer = () => {
           <p>Use Yoneak ecommerce bussiness application and mobile application to boost your bussiness</p>
           <div className='footer__icons'>
             <ul>
-              <li><a href='#' className='fab fa-facebook'></a></li>
-              <li><a href='#' className='fab fa-whatsapp'></a></li>
-              <li><a href='#' className='fab fa-instagram'></a></li>
-              <li><a href='#' className='fab fa-twitter'></a></li>
+              <li><a href='/' className='fab fa-facebook'></a></li>
+              <li><a href='/' className='fab fa-whatsapp'></a></li>
+              <li><a href='/' className='fab fa-instagram'></a></li>
+              <li><a href='/' className='fab fa-twitter'></a></li>
             </ul>
           </div>
         </div>
@@ -28,17 +28,17 @@ const Footer = () => {
         <div className='footer__center1'>
         <h2>Other Pages</h2>
           <ul>
-            <li><a href='#' className='desktop-link'>HOME</a></li>
-            <li><a href='#' className='desktop-link'>PRICING</a></li>
-            <li><a href='#' className='desktop-link'>CONTACT US</a></li>
-            <li><a href='#' className='desktop-link'>ABOUT US</a></li>
+            <li><a href='/' className='desktop-link'>HOME</a></li>
+            <li><a href='/' className='desktop-link'>PRICING</a></li>
+            <li><a href='/' className='desktop-link'>CONTACT US</a></li>
+            <li><a href='/' className='desktop-link'>ABOUT US</a></li>
           </ul>
         </div>
         <div className='footer__center2'>
         <h2>Additional Pages</h2>
           <ul>
-            <li><a href='#' className='desktop-link'>PRIVECY POLICY</a></li>
-            <li><a href='#' className='desktop-link'>TERMS & CONTIONS</a></li>
+            <li><a href='/' className='desktop-link'>PRIVECY POLICY</a></li>
+            <li><a href='/' className='desktop-link'>TERMS & CONTIONS</a></li>
           </ul>
         </div>
         </div>

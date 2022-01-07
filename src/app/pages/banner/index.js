@@ -2,8 +2,12 @@ import React, { useState } from 'react';
 import './index.scss';
 import ReactPlayer from 'react-player';
 import { scroller } from 'react-scroll';
-import image from '../../../assets/images/banner-image1.png';
+import image from '../../../assets/images/banner.jpg';
 import image1 from '../../../assets/images/schedule1.jpg';
+import slide1 from '../../../assets/images/01.png';
+import slide2 from '../../../assets/images/02.png';
+import slide3 from '../../../assets/images/04.png';
+
 
 const Banner = () => {
     const scrollToSection = () => {
@@ -39,31 +43,31 @@ const Banner = () => {
                     </div>
                     <div className='banner__video' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                         <ReactPlayer className='player-wrapper'
-                            width='600px'
-                            height='400px '
+                            // width='600px'
+                            // height='400px '
                             playing={play}
                             pip
                             controls='false'
-                            config={{ file: { forceHLS: true } }} url='https://www.youtube.com/watch?v=JGwWNGJdvx8&list=PLMB4z49yskUY_rl0ujQZx4-N_vgyWIzT0' />
+                            config={{ file: { forceHLS: true } }} url='https://www.youtube.com/watch?v=kJQP7kiw5Fk&list=PL15B1E77BB5708555&index=1' />
                     </div>
                 </div>
             </div>
-            <div className='work'>
-                <div className=' work__icons'>
-                    <i className='fas fa-user-shield work__icons'></i>
-                    <h1>Signed Certificate</h1>
-                    <p>Receive an instructor signed certificate to verify your achivements</p>
+            <div className='slides'>
+                <div className=' slides__image'>
+                <img src={slide1} alt='image'></img>
+                    <h1>No Coding Required</h1>
+                    <p>SetUp a fully functional, awesome website without needing to code a single line.</p>
                 </div>
-                <div className=' work__icons'>
-                    <i className='fas fa-copy work__icons'></i>
-                    <h1>Detailed Workbook</h1>
-                    <p>Learn by doing! Get access to detailed workbook for you to practice with.</p>
+                <div className='slides__image'>
+                <img src={slide2} alt='image'></img>
+                    <h1>eCommerce Optimization</h1>
+                    <p>With 9 yearsof experince in e-commerce, we are confident to bring the theme with the
+                     highest conversion rate.</p>
                 </div>
-                <div className=' work__icons'>
-                    <i className='fas fa-users work__icons'></i>
-                    <h1>Community</h1>
-                    <p>Learn with motivated peers having fresh out-of-the-box thinking and showing
-                        you new way to do things.</p>
+                <div className='slides__image'>
+                <img src={slide3} alt='image'></img>
+                    <h1>Support that pleases</h1>
+                    <p>Already our customers are hugily satisfied with customer support we are conveying.</p>
                 </div>
             </div>
             <div className='schedule'>
@@ -71,7 +75,7 @@ const Banner = () => {
                 <div className='schedule__content'>
                     <h1>BOOK YOUR PERSONALIZED LIVE ESTORE EXPERINCE</h1>
                     <a onClick={scrollToSection} className='text-decoration-none'>
-                        <button>SCHEDULE A DEMO</button>
+                        <button>Join Workshop</button>
                     </a>
                 </div>
             </div>
